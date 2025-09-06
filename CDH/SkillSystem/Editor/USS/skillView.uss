@@ -1,0 +1,17 @@
+.image-container {
+}
+
+.skill-container {
+}
+
+.delete-btn {
+}
+
+.container {
+}
+
+.container:hover {
+}
+
+.container.select {
+}

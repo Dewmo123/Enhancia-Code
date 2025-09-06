@@ -1,0 +1,49 @@
+﻿namespace ServerCode.DTO
+{
+    public class PlayerDTO
+    {
+        public string id { get; set; } = null!;
+        public string password { get; set; } = null!;
+    }
+    public class AuctionItemDTO
+    {
+        public string playerId { get; set; } = null!;
+        public string itemName { get; set; } = null!;
+        public int pricePerUnit { get; set; }
+        public int quantity { get; set; }
+        public int TotalPrice => pricePerUnit * quantity;
+    }
+    public class PlayerItemDTO
+    {
+        public string itemName { get; set; } = null!;
+        public int quantity { get; set; }
+    }
+    public class PlayerDataDTO
+    {
+        public string playerId { get; set; }
+        public int gold { get; set; }
+        public string dictionary { get; set; }
+        public int weaponLevel { get; set; }
+        public int armorLevel { get; set; }
+    }
+    public class BuyerDTO
+    {
+        public string buyerId { get; set; }
+        public int buyCount { get; set; }
+        public AuctionItemDTO itemInfo { get; set; } = null!;
+        public int NeededMoney => buyCount * itemInfo.pricePerUnit;
+    }
+    public class DictionaryUpgradeDTO
+    {
+        public string dictionaryKey { get; set; }
+    }
+    public class StageEndDTO
+    {
+        public int stageCount { get; set; }
+    }
+    public enum EquipType
+    {
+        Weapon = 0,
+        Armor = 1
+    }
+}

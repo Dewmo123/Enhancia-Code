@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0186317e820cf7746910ded45306b8de, type: 3}
+  m_Name: Stage_CIW_6
+  m_EditorClassIdentifier: 
+  poolingName: Stage_CIW_6
+  prefab: {fileID: 6171209115278502640, guid: 9aaeb6ae46786744fb1eca21019d3f81, type: 3}
+  initCount: 0

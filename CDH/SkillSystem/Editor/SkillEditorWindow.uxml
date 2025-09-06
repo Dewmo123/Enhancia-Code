@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <engine:VisualElement name="MenuRow" style="flex-direction: row; align-items: stretch;">
+        <engine:Button text="생성하기" name="CreateBtn" />
+    </engine:VisualElement>
+    <engine:VisualElement name="ContentContainer" style="flex-grow: 1;">
+        <_00.Work.CDH.Code.SkillSystem.Editor.TwoSplitView>
+            <engine:VisualElement name="LeftPanel" style="flex-grow: 1; width: 101px;">
+                <engine:ScrollView name="ListScrollView" focusable="false" style="flex-grow: 1;" />
+            </engine:VisualElement>
+            <engine:VisualElement name="RightPanel" style="flex-grow: 1;">
+                <engine:VisualElement name="Inspector" style="flex-grow: 1;" />
+            </engine:VisualElement>
+        </_00.Work.CDH.Code.SkillSystem.Editor.TwoSplitView>
+    </engine:VisualElement>
+</engine:UXML>

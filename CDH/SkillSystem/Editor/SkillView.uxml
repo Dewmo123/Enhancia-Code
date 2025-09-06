@@ -1,0 +1,14 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/00.Work/CDH/Code/SkillSystem/Editor/USS/skillView.uss?fileID=7433441132597879392&amp;guid=09260222f59c5e94fa12be701ccab0c3&amp;type=3#skillView" />
+    <engine:VisualElement name="Container" class="container" style="padding-top: 5px; flex-grow: 1; flex-direction: row; align-items: center; padding-right: 10px; padding-bottom: 5px; padding-left: 10px; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;">
+        <engine:VisualElement name="ImageContainer" class="image-container" style="overflow: hidden; flex-shrink: 0; width: 32px; height: 32px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); top: auto;">
+            <engine:VisualElement name="Image" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Plugins/Demigiant/DemiLib/Core/Editor/Imgs/project/ico_star.png?fileID=2800000&amp;guid=21820ec6fc9dd0b4fbf42a3b93fdad4e&amp;type=3#ico_star&quot;); flex-shrink: 0; cursor: initial;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="SkillTitleContainer" class="skill-container" style="flex-grow: 1; padding-right: 10px; padding-left: 10px;">
+            <engine:Label text="Label" name="SkillTitle" style="text-overflow: ellipsis; overflow: hidden;" />
+        </engine:VisualElement>
+        <engine:VisualElement name="ButtonContainer" style="flex-grow: 0; flex-shrink: 0; background-color: rgba(0, 0, 0, 0); border-left-color: rgba(0, 0, 0, 0); border-right-color: rgba(0, 0, 0, 0); border-top-color: rgba(0, 0, 0, 0); border-bottom-color: rgba(0, 0, 0, 0); align-content: auto; align-items: stretch; align-self: center; flex-direction: row;">
+            <engine:Button text="삭제" name="DeleteBtn" emoji-fallback-support="true" class="delete-btn" style="align-self: auto; align-content: auto; padding-right: 5px; padding-left: 5px;" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>

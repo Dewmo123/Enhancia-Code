@@ -1,0 +1,7 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <engine:VisualElement name="Container" style="flex-grow: 1; flex-direction: row; align-self: flex-start; width: auto; align-items: flex-start; justify-content: flex-start; top: auto;">
+        <engine:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: column; align-self: auto; width: auto; justify-content: center;">
+            <engine:TextField label="Skill Name" placeholder-text="skillName" name="skillName" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
